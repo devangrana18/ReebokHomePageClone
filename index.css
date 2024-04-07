@@ -149,10 +149,97 @@ input[type="radio"] {
 }
 
 label {
-    color: rgb(109, 109, 109);
+    color: rgb(109, 109, 109);}
 
 .cards{
     height: 400px;
     border: 1px solid black;
 
+}
+#container3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#content3 {
+    height: 400px;
+    width: 250px;
+}
+
+#cc {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1px;
+    background-color: rgb(243, 240, 240);
+}
+
+#cc>div>p {
+    font-size: 10px;
+    background-color: rgb(19, 108, 24);
+    /* border: 1px solid rgb(243, 247, 241); */
+    border-width: 3px;
+    background-image: linear-gradient(to right, rgb(120, 251, 91), rgb(0, 162, 255));
+    padding: 4px;
+}
+
+#im {
+    height: 18px;
+    width: 18px;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+
+img {
+    margin-top: -10px;
+    height: 300px;
+    width: 100%;
+
+}
+
+.la>p {
+    font-size: 10px;
+    margin-top: -62px;
+    color: rgb(84, 74, 74);
+}
+
+#qq>H3 {
+    font-size: 13px;
+    margin-top: -45px;
+    color: rgb(84, 74, 74);
+}
+
+#qq>h4 {
+    font-size: 14px;
+    margin-top: -7px;
+}
+
+.la {
+    display: flex;
+    justify-content: space-between;
+    width: 245px;
+}
+
+.la>img {
+    height: 25px;
+    width: 25px;
+    margin-top: -70px;
+}
+
+input[type="radio"] {
+    transform: scale(1.1);
+
+}
+
+.whi {
+    display: flex;
+    margin-top: -15px;
+    margin-left: -5px;
+    gap: 2PX;
+}
+
+.wh {
+    font-size: 12px;
+    margin-top: 2px;
+    /* text-align: center; */
 }
