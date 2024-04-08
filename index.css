@@ -16,6 +16,7 @@ body{
 
 .logo >img{
     width: 180px;
+    height: 40px;
 }
 .menu > ul{
 
@@ -41,7 +42,8 @@ body{
 }
 .search-png{
     width: 25px;
-    padding-top: 13px;
+    height: 20px;
+    padding-top: 25px;
 }
 .searchtxt{
 padding-left: 5px;
@@ -57,6 +59,8 @@ padding-left: 5px;
 
 .delivery-sec-img >img{
     width:50px;
+    height: 65px;
+    border-radius: 40px;
     background-color: red;
 }
 .delivery-sec-txt{
@@ -149,8 +153,14 @@ input[type="radio"] {
 }
 
 label {
+
+
     color: rgb(109, 109, 109);
 }
+
+
+
+
 .cards{
     height: 400px;
     border: 1px solid black;
