@@ -7,7 +7,7 @@ body{
   
 }
 .logo{
-
+    
     align-items: center;
     padding-left: 50px;
     padding-top: 15px;
@@ -74,7 +74,7 @@ padding-left: 5px;
     margin-bottom: 0px;
     padding-bottom: -900px;
 }
-cards {
+.cards {
     height: 400px;
     border: 1px solid black;
 }
@@ -149,8 +149,8 @@ input[type="radio"] {
 }
 
 label {
-    color: rgb(109, 109, 109);}
-
+    color: rgb(109, 109, 109);
+}
 .cards{
     height: 400px;
     border: 1px solid black;
